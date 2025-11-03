@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --main-color: rgb(7, 39, 65)
+}
+
+header {
+    background-color: var(--main-color)
+}
+
+.titles {
+    font-family: "Neuton", serif;
+}
+
+#home-img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.fs-lg-custom {
+    font-size: 5rem;
+}
+
+div h1 {
+    top: 15%;
+    color: var(--main-color)
+}
