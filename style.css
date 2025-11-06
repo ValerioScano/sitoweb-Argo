@@ -13,6 +13,10 @@ header {
     background-color: var(--main-color)
 }
 
+#logo-navbar {
+    height: 3rem;
+}
+
 .titles {
     font-family: "Neuton", serif;
 }
@@ -29,4 +33,20 @@ header {
 div h1 {
     top: 15%;
     color: var(--main-color)
+}
+
+.photos-home {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.section-title-home {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: var(--main-color);
+    color: white;
 }
